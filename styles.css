@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-family: arial, verdana, sans-serif;
+}
+
+#header {
+    background-image: linear-gradient( to right top, rgba(34, 139, 34, 0.8), rgba(71, 61, 139, 0.8)), url(https://images.unsplash.com/photo-1499615767948-e6a89ef6060f?auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 1180px;
+    padding: 20px 10px;
+    color: white;
+}
+
+#header h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#nav {
+    background: linear-gradient( to right top, rgba(218, 112, 214, 0.8), rgba(34, 139, 34, 0.8));
+    width: 1200px;
+}
+
+#nav ul {
+    list-style: none;
+}
+
+#nav ul li {
+    float: left;
+    width: 240px;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+#nav ul li:hover {
+    background: rgba(105, 90, 205, 0.8);
+    color: white;
+}
+
+#nav a {
+    color: black;
+}
+
+#left {
+    width: 800px;
+    height: 600px;
+    float: left;
+}
+
+.post {
+    margin: 20px;
+}
+
+.title {
+    background-image: linear-gradient( to right top, rgba(34, 139, 34, 0.8), rgba(71, 61, 139, 0.8));
+    padding: 15px 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.description {
+    background: #f1f1f1;
+    padding: 20px;
+}
+
+#right {
+    width: 360px;
+    height: 600px;
+    float: left;
+    padding: 20px;
+}
+
+#right h2 {
+    text-align: center;
+}
+
+#latest_post_group {
+    margin: 10px 0;
+}
+
+.latest_post {
+    background: linear-gradient( to right top, rgba(218, 112, 214, 0.8), rgba(34, 139, 34, 0.8));
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+
+.news_letter_head {
+    text-align: center;
+    font-size: 25px;
+}
+
+input[type="text"] {
+    width: 345px;
+    height: 30px;
+}
+
+input[type="submit"] {
+    width: 360px;
+    margin: 10px 0;
+    background: linear-gradient( to right top, rgba(218, 112, 214, 0.8), rgba(34, 139, 34, 0.8));
+    color: black;
+    padding: 10px 0;
+    border: none;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover {
+    background: rgba(105, 90, 205, 0.8);
+    color: white;
+}
+
+#footer {
+    background: rgba(105, 90, 205, 0.8);
+    width: 1200px;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
